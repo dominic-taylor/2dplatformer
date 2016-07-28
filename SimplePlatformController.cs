@@ -6,7 +6,7 @@ public class SimplePlatformController : MonoBehaviour {
 	[HideInInspector] public bool jump = true;
 
 	public float moveForce = 365f;
-	public float maxSpeed = 5f;
+	public float maxSpeed = 3f;
 	public float jumpForce = 1000f;
 	public Transform groundCheck;
 
