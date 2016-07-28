@@ -3,7 +3,7 @@ using System.Collections;
 
 public class SimplePlatformController : MonoBehaviour {
 	[HideInInspector] public bool facingRight = true;
-	[HideInInspector] public bool jump = true;
+	[HideInInspector] public bool jump = false;
 
 	public float moveForce = 365f;
 	public float maxSpeed = 3f;
